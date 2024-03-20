@@ -2,8 +2,50 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 
     main {
         width: 375px;
+        border: 1px solid;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+
+        .logo {
+            margin: 2rem 0;
+        }
+
+        .hero {
+            width: 414px;
+            height: 153px;
+            
+
+            .hero-left{
+                width: 190px;
+                height: 153px;
+                
+            }
+
+            .hero-right{
+                width: 190px;
+                height: 153px;
+                position: relative;
+                left: 30px;
+
+            }
+
+            
+
+        
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            padding: 0 4rem;
+        }
     }
 }
