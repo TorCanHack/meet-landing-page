@@ -140,6 +140,10 @@ body main footer .download-button2 {
   border: 0;
   position: relative;
   z-index: 10;
+  color: white;
+}
+body main footer .download-button2 span {
+  color: #d9b8ff;
 }
 body main footer::before {
   position: absolute;
@@ -153,6 +157,7 @@ body main footer::before {
 @media screen and (min-width: 768px) {
   body main {
     width: 768px;
+    /* Hover state */
   }
   body main .hero {
     width: 768px;
@@ -216,5 +221,79 @@ body main footer::before {
   }
   body main footer p {
     padding: 0 6rem;
+  }
+  body main .download-button1:hover {
+    cursor: pointer;
+    background-color: #71C0D4;
+  }
+  body main .what-is-it-button:hover, body main .download-button2:hover {
+    cursor: pointer;
+    background-color: #B18BDD;
+  }
+  body main .models img:hover {
+    background-color: #D8D8D8;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body main {
+    width: 1440px;
+    border: 1px solid;
+  }
+  body main .hero {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .main-text-and-buttons {
+    width: 540px;
+    position: relative;
+    top: -22rem;
+    margin-bottom: -15rem;
+  }
+  body main .main-text-and-buttons h1 {
+    font-size: 4rem;
+  }
+  body main .main-text-and-buttons .meet-text {
+    padding: 0 1rem;
+  }
+  body main .models {
+    width: 1110px;
+    height: 242px;
+    justify-content: space-around;
+  }
+  body main .models img {
+    width: 255px;
+    height: 242px;
+  }
+  body main .smarter-meetings {
+    padding: 0 31rem;
+  }
+  body main .send-message {
+    padding: 0 30rem;
+  }
+  body main footer {
+    width: 1440px;
+    height: 308px;
+    background-image: url("assets/desktop/image-footer.jpg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+  body main footer h3 {
+    padding: 0;
+    margin: 0 0 0 4rem;
+    width: 350px;
+  }
+  body main footer div {
+    width: 350px;
+  }
+  body main footer div p {
+    margin: 0;
+    padding: 0;
+  }
+  body main footer .download-button2 {
+    margin-right: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */

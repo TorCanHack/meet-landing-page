@@ -186,6 +186,11 @@ body {
                 border: 0;
                 position: relative;
                 z-index: 10;
+                color: white;
+
+                span {
+                    color: $veryLighMagenta;
+                }
             }
             
         }
@@ -287,8 +292,115 @@ body {
                 }
             }
 
+            /* Hover state */
+            .download-button1:hover {
+                cursor: pointer;
+                background-color: #71C0D4;
+            }
+
+            .what-is-it-button:hover, .download-button2:hover {
+                cursor: pointer;
+                background-color: #B18BDD;
+            }
+
+            .models {
+                img:hover {
+                    background-color: #D8D8D8;
+                }
+            }
+
            
 
+        }
+        
+    }
+
+    @media screen and (min-width: 1440px) {
+
+        main {
+
+            width: 1440px;
+            border: 1px solid;
+
+            .hero{
+
+                width: 1440px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+           .main-text-and-buttons {
+
+                width: 540px;
+                position: relative;
+                top: -22rem;
+                margin-bottom: -15rem;
+
+                h1 {
+                    font-size: 4rem;
+                }
+                .meet-text {
+                    padding: 0 1rem;
+                }
+
+
+           }
+
+           .models {
+
+                width: 1110px;
+                height: 242px;
+                justify-content: space-around;
+
+                img {
+                    width: 255px;
+                    height: 242px;
+                }
+           }
+
+           .smarter-meetings {
+                padding: 0 31rem;
+           }
+
+           .send-message {
+
+                padding: 0 30rem;
+           }
+
+           footer {
+
+                width: 1440px;
+                height: 308px;
+                background-image: url("assets/desktop/image-footer.jpg");
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                text-align: left;
+                
+
+                h3 {
+                    padding: 0;
+                    margin: 0 0 0 4rem;
+                    width: 350px;
+                }
+
+                div {
+                    width: 350px;
+
+                    p{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+
+
+                .download-button2 {
+
+                    margin-right: 4rem;
+                    
+                }
+           }
         }
         
     }
