@@ -16,10 +16,9 @@ body main {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 3rem;
 }
 body main .logo {
-  margin: 2rem 0;
+  margin: 5rem 0;
 }
 body main .hero {
   width: 414px;
