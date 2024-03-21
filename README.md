@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/TorCanHack/meet-landing-page)
-- Live Site URL: [Live site URL](https://torcanhack.github.io/meet-landing-page/)
+- Live Site URL: [Live site URL](https://torcanhack.github.io/meet-landing-page)
 
 ## My process
 

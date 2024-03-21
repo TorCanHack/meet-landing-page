@@ -16,6 +16,7 @@ body main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 3rem;
 }
 body main .logo {
   margin: 2rem 0;
