@@ -155,7 +155,7 @@ body {
             margin-top: -55px;
             position: relative;
             height: 428px;
-            background-image: url("assets/mobile/image-footer.jpg");
+            background-image: url("starter-code/assets/mobile/image-footer.jpg");
             background-size: contain;
             background-repeat: no-repeat;
             
@@ -278,7 +278,7 @@ body {
 
             footer {
                 height: 428px;
-                background-image: url("assets/tablet/image-footer.jpg");
+                background-image: url("starter-code/assets/tablet/image-footer.jpg");
                 background-size: contain;
 
                 h3 {
@@ -320,7 +320,7 @@ body {
         main {
 
             width: 1440px;
-            border: 1px solid;
+            
 
             .hero{
 
@@ -371,7 +371,7 @@ body {
 
                 width: 1440px;
                 height: 308px;
-                background-image: url("assets/desktop/image-footer.jpg");
+                background-image: url("starter-code/assets/desktop/image-footer.jpg");
                 display: flex;
                 flex-direction: row;
                 align-items: center;
