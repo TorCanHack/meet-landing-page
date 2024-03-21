@@ -264,6 +264,9 @@ body main footer::before {
     width: 255px;
     height: 242px;
   }
+  body main h2 {
+    margin-top: 5rem;
+  }
   body main .smarter-meetings {
     padding: 0 31rem;
   }
