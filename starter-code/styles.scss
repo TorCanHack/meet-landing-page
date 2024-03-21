@@ -7,7 +7,7 @@ $veryLighMagenta: #d9b8ff;
 $lightGray: #fafafa;
 
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -48,7 +48,6 @@ body {
             .hero-right{
                 width: 190px;
                 height: 153px;
-               
 
             }
 
@@ -158,6 +157,7 @@ body {
             height: 428px;
             background-image: url("assets/mobile/image-footer.jpg");
             background-size: contain;
+            background-repeat: no-repeat;
             
 
             h3 {
@@ -203,5 +203,93 @@ body {
 
     }
 
-  
+    @media screen and (min-width: 768px) {
+
+        main {
+            width: 768px;
+
+            .hero {
+                width: 768px;
+                height: 303px;
+
+                .hero-left {
+                    width: 380px;
+                    height: 303px;
+                }
+
+                .hero-right {
+                    width: 380px;
+                    height: 303px;
+                }
+            }
+
+            .main-text-and-buttons {
+                margin-bottom: 3rem;
+
+                h1 {
+                    font-size: 3rem;
+                }
+    
+                .meet-text {
+                    padding: 0 11rem;
+                }
+    
+                .download-button1 {
+                    display: inline;
+                    margin-right: 1rem;
+                }
+    
+                .what-is-it-button {
+                    display: inline;
+                }
+            }
+
+            .models {
+                display: flex;
+                flex-direction: row;
+                width: 689px;
+                height: 156px;
+                margin-top: 1rem;
+
+                img {
+                    width: 164px;
+                    height: 156px;
+                }
+            }
+
+            h2 {
+                letter-spacing: 4px;
+            }
+
+            .smarter-meetings {
+                font-size: 2.5rem;
+                padding: 0 10rem;
+                line-height: 2.75rem;
+            }
+
+            .send-message {
+                padding: 0 6rem;
+            }
+
+            footer {
+                height: 428px;
+                background-image: url("assets/tablet/image-footer.jpg");
+                background-size: contain;
+
+                h3 {
+                    margin-top: 6rem;
+                    font-size: 2.5rem;
+                    padding: 0 10rem;
+                }
+
+                p {
+                    padding: 0 6rem;
+                }
+            }
+
+           
+
+        }
+        
+    }
 }

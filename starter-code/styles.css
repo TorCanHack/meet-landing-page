@@ -115,6 +115,7 @@ body main footer {
   height: 428px;
   background-image: url("assets/mobile/image-footer.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 body main footer h3 {
   color: #fafafa;
@@ -148,4 +149,72 @@ body main footer::before {
   height: 100%;
   content: "";
   opacity: 0.8;
+}
+@media screen and (min-width: 768px) {
+  body main {
+    width: 768px;
+  }
+  body main .hero {
+    width: 768px;
+    height: 303px;
+  }
+  body main .hero .hero-left {
+    width: 380px;
+    height: 303px;
+  }
+  body main .hero .hero-right {
+    width: 380px;
+    height: 303px;
+  }
+  body main .main-text-and-buttons {
+    margin-bottom: 3rem;
+  }
+  body main .main-text-and-buttons h1 {
+    font-size: 3rem;
+  }
+  body main .main-text-and-buttons .meet-text {
+    padding: 0 11rem;
+  }
+  body main .main-text-and-buttons .download-button1 {
+    display: inline;
+    margin-right: 1rem;
+  }
+  body main .main-text-and-buttons .what-is-it-button {
+    display: inline;
+  }
+  body main .models {
+    display: flex;
+    flex-direction: row;
+    width: 689px;
+    height: 156px;
+    margin-top: 1rem;
+  }
+  body main .models img {
+    width: 164px;
+    height: 156px;
+  }
+  body main h2 {
+    letter-spacing: 4px;
+  }
+  body main .smarter-meetings {
+    font-size: 2.5rem;
+    padding: 0 10rem;
+    line-height: 2.75rem;
+  }
+  body main .send-message {
+    padding: 0 6rem;
+  }
+  body main footer {
+    height: 428px;
+    background-image: url("assets/tablet/image-footer.jpg");
+    background-size: contain;
+  }
+  body main footer h3 {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    padding: 0 10rem;
+  }
+  body main footer p {
+    padding: 0 6rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
